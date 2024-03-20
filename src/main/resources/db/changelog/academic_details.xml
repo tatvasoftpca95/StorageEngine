@@ -1,0 +1,18 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+	<changeSet author="mohit" id="momo9898" labels="data">
+		<loadUpdateData primaryKey="academic_id" file="classpath:db/changelog/academic_details.csv" tableName="academic_details" separator=",">
+            <column header="academic_id" name="academic_id" type="NUMERIC" />
+			<column header="duration_month" name="duration_month" type="NUMERIC" />
+			<column header="end_date" name="end_date" type="DATE" />
+			<column header="start_date" name="start_date" type="DATE" />
+			<column header="academic_name" name="academic_name" type="STRING" />
+        </loadUpdateData>
+	</changeSet>
+</databaseChangeLog>
+
+
+<!--academic_id int AI PK 
+duration_month int 
+end_date date 
+start_date date 
+academic_name varchar(255)-->

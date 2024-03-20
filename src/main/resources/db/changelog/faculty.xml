@@ -1,0 +1,15 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+	<changeSet author="mohit" id="momo9892" labels="data">
+		<loadUpdateData primaryKey="faculty_id"  file="classpath:db/changelog/faculty.csv" tableName="faculty" separator=",">
+			<column header="course_id" name="course_id" type="NUMERIC" />
+			<column header="faculty_id" name="faculty_id" type="NUMERIC" />
+			<column header="faculty_name" name="faculty_name" type="STRING" />
+			<column header="faculty_type" name="faculty_type" type="STRING" />
+		</loadUpdateData>
+	</changeSet>
+</databaseChangeLog>
+
+<!--course_id int 
+faculty_id int AI PK 
+faculty_name varchar(255) 
+faculty_type varchar(255)-->

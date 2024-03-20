@@ -1,0 +1,25 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+	<changeSet author="mohit" id="momo9893" labels="data">
+		<loadUpdateData primaryKey="course_id"  file="classpath:db/changelog/course.csv" tableName="course" separator=",">
+			<column header="academic_id" name="academic_id" type="NUMERIC" />
+			<column header="course_id" name="course_id" type="NUMERIC" />
+			<column header="program_id" name="program_id" type="NUMERIC" />
+			<column header="semester_id" name="semester_id" type="NUMERIC" />
+			<column header="year_type_id" name="year_type_id" type="NUMERIC" />
+			<column header="course_code" name="course_code" type="STRING" />
+			<column header="course_name" name="course_name" type="STRING" />
+			<column header="credit_hours" name="credit_hours" type="NUMERIC" />
+			<column header="type" name="type" type="STRING" />
+		</loadUpdateData>
+	</changeSet>
+</databaseChangeLog>
+
+<!--academic_id int 
+course_id int AI PK 
+program_id int 
+semester_id int 
+year_type_id int 
+course_code varchar(255) 
+course_name varchar(255) 
+credit_hours int 
+type varchar(255)-->
