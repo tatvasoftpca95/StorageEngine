@@ -1,0 +1,15 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+	<changeSet author="mohit" id="momo9896" labels="data">
+		<loadUpdateData primaryKey="room_id"  file="classpath:db/changelog/room.csv" tableName="room" separator=",">
+			<column header="room_id" name="room_id" type="NUMERIC" />
+			<column header="floor" name="floor" type="STRING" />
+			<column header="room_no" name="room_no" type="STRING" />
+			<column header="room_type" name="room_type" type="STRING" />
+		</loadUpdateData>
+	</changeSet>
+</databaseChangeLog>
+
+<!--room_id int AI PK 
+floor varchar(255) 
+room_no varchar(255) 
+room_type varchar(255)-->

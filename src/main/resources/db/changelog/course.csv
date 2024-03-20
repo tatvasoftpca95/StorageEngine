@@ -1,0 +1,52 @@
+academic_id,course_id,program_id,semester_id,year_type_id,course_code,course_name,credit_hours,type
+1,1,1,1,1,ESPU1081,Introduction to Academic English for Information Technology I ,3,LECTURE
+1,2,1,1,1,MATH105,Calculus I ,3,LECTURE
+1,3,1,1,1,CSBP119,Algorithms and Problem Solving ,3,LECTURE
+1,4,1,1,1,PHYS105,General Physics I ,3,LECTURE
+1,5,1,1,1,GEIT112,Fourth Industrial Revolution,3,LECTURE
+1,6,1,1,1,CSBP121,Programming Lab I ,1,LAB
+1,7,1,1,1,PHYS135,General Physics Lab I ,1,LAB
+1,8,1,2,1,CENG202,Discrete Mathematics ,3,LECTURE
+1,9,1,2,1,MATH110,Calculus II ,3,LECTURE
+1,10,1,2,1,CSBP219,Object Oriented Programming ,3,LECTURE
+1,11,1,2,1,CENG205,Digital Design & Computer Organization ,3,LECTURE
+1,12,1,2,1,CSBP221,Programming Lab II ,1,LAB
+1,13,1,2,1,HSS105,Emirates Studies ,3,LECTURE
+2,14,1,1,2,MATH140,Linear Algebra I ,3,LECTURE
+2,15,1,1,2,CENG201,Circuits Fundamentals ,3,LECTURE
+2,16,1,1,2,CENG231,Circuits Lab ,1,LAB
+2,17,1,1,2,PHYS110,General Physics II ,3,LECTURE
+2,18,1,1,2,PHYS140,General Physics Lab II ,1,LAB
+2,19,1,1,2,GESU121,Sustainability ,3,LECTURE
+2,20,1,1,2,CSBP319,Data Structures ,3,LECTURE
+2,21,1,2,2,MATH275,Ordinary Differential Equations ,3,LECTURE
+2,22,1,2,2,CENG221,Computer Architecture ,3,LECTURE
+2,23,1,2,2,PHYS231,Electronics Fundamentals ,3,LECTURE
+2,24,1,2,2,CENG210,Communication & Networks Fundamentals ,3,LECTURE
+2,25,1,2,2,BIOC100/CHEM111,Basic Biology I /General Chemistry I Choose ONE ,3,LECTURE
+2,26,1,2,2,ISLM100/ISLM101,"Islamic Culture/Biography of the Prophet ""Sira"" ",3,LECTURE
+3,27,1,1,3,ELEC370,Electronic Circuits ,3,LECTURE
+3,28,1,1,3,ELEC375,Electronic Circuits Lab ,1,LAB
+3,29,1,1,3,CENG328,Introduction to Embedded Systems ,3,LECTURE
+3,30,1,1,3,CENG329,Introduction to Embedded Systems Lab ,1,LAB
+3,31,1,1,3,STAT210,Probability and Statistics ,3,LECTURE
+3,32,1,1,3,ITBP301,Security Principles & Practice ,3,LECTURE
+3,33,1,1,3,CENG530,Computer Network Protocols ,3,LECTURE
+3,34,1,2,3,CENG320,Signals and Systems I ,3,LECTURE
+3,35,1,2,3,CENG324,Digital System Design ,3,LECTURE
+3,36,1,2,3,CENG325,Digital Design lab ,1,LAB
+3,37,1,2,3,CSBP315,Operating Systems Fundamentals ,3,LECTURE
+3,38,1,2,3,CENG529,Networking Lab ,1,LAB
+3,39,1,2,3,ELECTIVE,Student choice ,3,LECTURE
+3,40,1,2,3,ELECTIVE,Student choice ,3,LECTURE
+4,41,1,1,4,SWEB300,Software Engineering Fundamentals ,3,LECTURE
+4,42,1,1,4,ITBP418,Entrepreneurship in Information Technology ,3,LECTURE
+4,43,1,1,4,ITBP480,Senior Graduation Project I ,3,LECTURE
+4,44,1,1,4,ELECTIVE,Student choice ,3,LECTURE
+4,45,1,1,4,ELECTIVE,Student choice ,3,LECTURE
+4,46,1,2,4,ITBP481,Senior Graduation Project II ,3,LECTURE
+4,47,1,2,4,ITBP370,Professional Responsibility in Information Technology ,3,LECTURE
+4,48,1,2,4,ELECTIVE,Student choice ,3,LECTURE
+4,49,1,2,4,ELECTIVE,Student choice ,3,LECTURE
+4,50,1,2,4,ELECTIVE,Student choice ,3,LECTURE
+5,51,1,1,5,ITBP495,Internship ,12,INTERN
