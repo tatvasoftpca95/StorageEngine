@@ -1,14 +1,12 @@
-<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
 
-    <!-- Include other change log files -->
+	<!-- Include other change log files -->
 	<include file="academic_details.xml" relativeToChangelogFile="true" />
+	<include file="year_type.xml" relativeToChangelogFile="true" />
+	<include file="room.xml" relativeToChangelogFile="true" />
+	<include file="program.xml" relativeToChangelogFile="true" />
+	<include file="semester.xml" relativeToChangelogFile="true" />
 	<include file="course.xml" relativeToChangelogFile="true" />
 	<include file="faculty.xml" relativeToChangelogFile="true" />
-	<include file="program.xml" relativeToChangelogFile="true" />
-	<include file="room.xml" relativeToChangelogFile="true" />
-	<include file="semester.xml" relativeToChangelogFile="true" />
-	<include file="year_type.xml" relativeToChangelogFile="true" />
 </databaseChangeLog>
