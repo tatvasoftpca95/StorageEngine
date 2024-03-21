@@ -1,0 +1,73 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
+
+	<changeSet id="create01" author="mohit">
+        <createTable tableName="academic_details">
+            <column name="academic_id" type="int">
+               <constraints primaryKey="true"/>
+            </column>
+            <column name="duration_month" type="int"/>
+            <column name="end_date" type="date"/>
+            <column name="start_date" type="date"/>
+            <column name="academic_name" type="varchar(255)"/>
+            <!-- Add more columns as per your entity -->
+        </createTable>
+        
+        <createTable tableName="year_type">
+            <column name="year_type_id" type="int">
+               <constraints primaryKey="true"/>
+            </column>
+            <column name="year_number" type="varchar(255)"/>
+        </createTable>
+        
+        <createTable tableName="room">
+            <column name="room_id" type="int">
+               <constraints primaryKey="true"/>
+            </column>
+            <column name="floor" type="varchar(255)"/>
+            <column name="room_no" type="varchar(255)"/>
+            <column name="room_type" type="varchar(255)"/>
+        </createTable>
+        
+         <createTable tableName="program">
+            <column name="program_id" type="int">
+               <constraints primaryKey="true"/>
+            </column>
+            <column name="year_type_id" type="int"/>
+            <column name="name" type="varchar(255)"/>
+        </createTable>
+        
+        <createTable tableName="semester">
+            <column name="semester_id" type="int">
+               <constraints primaryKey="true"/>
+            </column>
+            <column name="year_type_id" type="int"/>
+            <column name="name" type="varchar(255)"/>
+        </createTable>
+        
+        <createTable tableName="course">
+            <column name="course_id" type="int">
+               <constraints primaryKey="true"/>
+            </column>
+             <column name="academic_id" type="int"/>
+            <column name="program_id" type="int"/>
+            <column name="semester_id" type="int"/>
+            <column name="year_type_id" type="int"/>
+            <column name="course_code" type="varchar(255)"/>
+            <column name="course_name" type="varchar(255)"/>
+            <column name="credit_hours" type="int"/>
+            <column name="type" type="varchar(255)"/>
+        </createTable>
+         
+        <createTable tableName="faculty">
+            <column name="faculty_id" type="int">
+               <constraints primaryKey="true"/>
+            </column>
+            <column name="course_id" type="int"/>
+            <column name="faculty_name" type="varchar(255)"/>
+            <column name="faculty_type" type="varchar(255)"/>
+        </createTable>
+        
+    </changeSet>
+</databaseChangeLog>
+
