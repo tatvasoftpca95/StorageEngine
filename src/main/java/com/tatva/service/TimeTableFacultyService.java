@@ -3,6 +3,7 @@ package com.tatva.service;
 import java.util.List;
 
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.tatva.entities.TimeTableFaculty;
@@ -62,6 +63,14 @@ public class TimeTableFacultyService {
 		List<TimeTableFaculty> allTimeTableFaculty = timeTableFacultyRepository.findAll();
 		Validations.isEmpty(allTimeTableFaculty);
 		return allTimeTableFaculty;
+	}
+	
+	/*
+	 * Returns msg
+	 */
+	public ResponseEntity<String> saveAll(List<TimeTableFaculty> ttfaculties) {
+		List<TimeTableFaculty> allfacultySchedules = timeTableFacultyRepository.saveAll(ttfaculties);
+		return ResponseEntity.ok("inserted");
 	}
 
 }
