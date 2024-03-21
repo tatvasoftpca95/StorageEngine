@@ -7,11 +7,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.tatva.entities.TimeTableFaculty;
 import com.tatva.service.TimeTableFacultyService;
+import com.tatva.utils.Validations;
 
 import jakarta.transaction.Transactional;
 
@@ -66,6 +69,13 @@ public class TimeTableFacultyController {
 	//@ApiOperation(value = "Get  all records of faculties")
 	public ResponseEntity<List<TimeTableFaculty>> getAll(){
 		return ResponseEntity.ok(timeTableFacultyService.getAll()); 
+	}
+	
+	@PostMapping("/save-all")
+	//@ApiOperation(value = "Save All the records of TimeTableFaculty")
+	public ResponseEntity<String> saveAll(@RequestBody List<TimeTableFaculty> ttfaculties) {
+		Validations.isEmpty(ttfaculties);
+		return timeTableFacultyService.saveAll(ttfaculties);
 	}
 
 }

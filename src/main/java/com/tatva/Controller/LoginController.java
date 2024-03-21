@@ -47,7 +47,7 @@ public class LoginController {
         return response;
     }
 
-    @RequestMapping("/user")//provide username and password value under basicAuth from postman
+    @RequestMapping("/user")//provide username and password value under basicAuth from postman not in post-body
     public User getUserDetailsAfterLogin(Authentication authentication) {
         List<User> users = userRepository.findByEmail(authentication.getName());
         if (users.size() > 0) {

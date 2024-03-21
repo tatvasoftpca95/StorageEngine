@@ -48,7 +48,7 @@ public class ProjectSecurityConfig {
 //                return config;
 //            }
 //                }))
-        .csrf((csrf) -> csrf.csrfTokenRequestHandler(requestHandler).ignoringRequestMatchers("/faculty-schedule/save-all", "/register","/course/byAllIds")
+        .csrf((csrf) -> csrf.csrfTokenRequestHandler(requestHandler).ignoringRequestMatchers("/ttFaculty/save-all", "/register","/course/byAllIds")
                         .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
            //filters
                 .addFilterAfter(new CsrfCookieFilter(), BasicAuthenticationFilter.class)
@@ -58,7 +58,7 @@ public class ProjectSecurityConfig {
                 
                 .authorizeHttpRequests((requests)->requests
                         .requestMatchers("/user", "/room/**","/academic/**","/faculty/**","/faculties/rooms","/year-type",
-                        		"/program/**","/semester/**","/course/**").authenticated()
+                        		"/program/**","/semester/**","/course/**","/ttFaculty/**").authenticated()
                  .requestMatchers("/register").permitAll())
                 .formLogin(Customizer.withDefaults())
                 .httpBasic(Customizer.withDefaults());
