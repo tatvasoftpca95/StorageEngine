@@ -57,6 +57,7 @@
             <column name="course_name" type="varchar(255)"/>
             <column name="credit_hours" type="int"/>
             <column name="type" type="varchar(255)"/>
+            <column name="room_id" type="int"/>
         </createTable>
          
         <createTable tableName="faculty">
@@ -68,6 +69,23 @@
             <column name="faculty_type" type="varchar(255)"/>
         </createTable>
         
+    </changeSet>
+    
+    <changeSet id="kj2103#01" author="kashish">
+    	<sql >
+		            CREATE TABLE `timetable_faculty` (
+		  `timetable_faculty_id` int NOT NULL AUTO_INCREMENT,
+		  `course_id` int DEFAULT NULL,
+		  `day` varchar(255) DEFAULT NULL,
+		  `end_time` time(6) DEFAULT NULL,
+		  `room_id` int DEFAULT NULL,
+		  `start_time` time(6) DEFAULT NULL,
+		  `faculty_id` int DEFAULT NULL,
+		  PRIMARY KEY (`timetable_faculty_id`),
+		  KEY `FK4hq8hde8l2yquxivq1v1jgqsm` (`faculty_id`),
+		  CONSTRAINT `FK4hq8hde8l2yquxivq1v1jgqsm` FOREIGN KEY (`faculty_id`) REFERENCES `faculty` (`faculty_id`)
+		)
+        </sql>
     </changeSet>
 </databaseChangeLog>
 

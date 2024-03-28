@@ -35,33 +35,33 @@ public class ProjectSecurityConfig {
         http.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         
         //cors
-//            .cors(corsCustomizer -> corsCustomizer.configurationSource(new CorsConfigurationSource() {
-//            @Override
-//            public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
-//                CorsConfiguration config = new CorsConfiguration();
-//                config.setAllowedOrigins(Collections.singletonList("http://localhost:4200"));
-//                config.setAllowedMethods(Collections.singletonList("*"));
+            .cors(corsCustomizer -> corsCustomizer.configurationSource(new CorsConfigurationSource() {
+            @Override
+            public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
+                CorsConfiguration config = new CorsConfiguration();
+                config.setAllowedOrigins(Collections.singletonList("http://localhost:4200"));
+                config.setAllowedMethods(Collections.singletonList("*"));
 //                config.setAllowCredentials(true);
-//                config.setAllowedHeaders(Collections.singletonList("*"));
+                config.setAllowedHeaders(Collections.singletonList("*"));
 //                config.setExposedHeaders(Arrays.asList("Authorization"));
-//                config.setMaxAge(3600L);
-//                return config;
-//            }
-//                }))
-        .csrf((csrf) -> csrf.csrfTokenRequestHandler(requestHandler).ignoringRequestMatchers("/ttFaculty/save-all", "/register","/course/byAllIds")
+                config.setMaxAge(3600L);
+                return config;
+            }
+                }))
+        .csrf((csrf) -> csrf.csrfTokenRequestHandler(requestHandler).ignoringRequestMatchers("/faculty-schedule/save-all", "/register","/course/byAllIds")
                         .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
            //filters
-                .addFilterAfter(new CsrfCookieFilter(), BasicAuthenticationFilter.class)
-         //jwt filters
-                .addFilterAfter(new JWTTokenGeneratorFilter(), BasicAuthenticationFilter.class)
-                .addFilterBefore(new JWTTokenValidatorFilter(), BasicAuthenticationFilter.class)
-                
+//                .addFilterAfter(new CsrfCookieFilter(), BasicAuthenticationFilter.class)
+//         //jwt filters
+//                .addFilterAfter(new JWTTokenGeneratorFilter(), BasicAuthenticationFilter.class)
+//                .addFilterBefore(new JWTTokenValidatorFilter(), BasicAuthenticationFilter.class)
+//                
                 .authorizeHttpRequests((requests)->requests
                         .requestMatchers("/user", "/room/**","/academic/**","/faculty/**","/faculties/rooms","/year-type",
-                        		"/program/**","/semester/**","/course/**","/ttFaculty/**").authenticated()
-                 .requestMatchers("/register").permitAll())
-                .formLogin(Customizer.withDefaults())
-                .httpBasic(Customizer.withDefaults());
+                        		"/program/**","/semester/**","/course/**").permitAll()
+                 .requestMatchers("/register").permitAll());
+//                .formLogin(Customizer.withDefaults())
+//                .httpBasic(Customizer.withDefaults());
         return http.build();
     }
 

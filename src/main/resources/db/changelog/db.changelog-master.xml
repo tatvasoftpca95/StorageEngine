@@ -2,7 +2,7 @@
                    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
 
 	<!-- Include other change log files -->
-	<include file="table_create.xml" relativeToChangelogFile="true" />
+	<include file="table_create.xml" relativeToChangelogFile="true"/>
 	<include file="academic_details.xml" relativeToChangelogFile="true" />
 	<include file="year_type.xml" relativeToChangelogFile="true" />
 	<include file="room.xml" relativeToChangelogFile="true" />

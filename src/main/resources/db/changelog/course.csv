@@ -1,126 +1,456 @@
 academic_id,course_id,program_id,semester_id,year_type_id,course_code,course_name,credit_hours,type
-1,1,1,1,1,ESPU1081,Introduction to Academic English for Information Technology I ,3,LECTURE
-1,2,1,1,1,MATH105,Calculus I ,3,LECTURE
-1,3,1,1,1,CSBP119,Algorithms and Problem Solving ,3,LECTURE
-1,4,1,1,1,PHYS105,General Physics I ,3,LECTURE
+1,1,1,1,1,ESPU1081,Introduction to Academic English for Information Technology I,3,LECTURE
+1,2,1,1,1,MATH105,Calculus I,3,LECTURE
+1,3,1,1,1,CSBP119,Algorithms and Problem Solving,3,LECTURE
+1,4,1,1,1,PHYS105,General Physics I,3,LECTURE
 1,5,1,1,1,GEIT112,Fourth Industrial Revolution,3,LECTURE
-1,6,1,1,1,CSBP121,Programming Lab I ,1,LAB
-1,7,1,1,1,PHYS135,General Physics Lab I ,1,LAB
-1,8,1,2,1,CENG202,Discrete Mathematics ,3,LECTURE
-1,9,1,2,1,MATH110,Calculus II ,3,LECTURE
-1,10,1,2,1,CSBP219,Object Oriented Programming ,3,LECTURE
-1,11,1,2,1,CENG205,Digital Design & Computer Organization ,3,LECTURE
-1,12,1,2,1,CSBP221,Programming Lab II ,1,LAB
-1,13,1,2,1,HSS105,Emirates Studies ,3,LECTURE
-2,14,1,1,2,MATH140,Linear Algebra I ,3,LECTURE
-2,15,1,1,2,CENG201,Circuits Fundamentals ,3,LECTURE
-2,16,1,1,2,CENG231,Circuits Lab ,1,LAB
-2,17,1,1,2,PHYS110,General Physics II ,3,LECTURE
-2,18,1,1,2,PHYS140,General Physics Lab II ,1,LAB
-2,19,1,1,2,GESU121,Sustainability ,3,LECTURE
-2,20,1,1,2,CSBP319,Data Structures ,3,LECTURE
-2,21,1,2,2,MATH275,Ordinary Differential Equations ,3,LECTURE
-2,22,1,2,2,CENG221,Computer Architecture ,3,LECTURE
-2,23,1,2,2,PHYS231,Electronics Fundamentals ,3,LECTURE
-2,24,1,2,2,CENG210,Communication & Networks Fundamentals ,3,LECTURE
-2,25,1,2,2,BIOC100/CHEM111,Basic Biology I /General Chemistry I Choose ONE ,3,LECTURE
-2,26,1,2,2,ISLM100/ISLM101,"Islamic Culture/Biography of the Prophet ""Sira"" ",3,LECTURE
-3,27,1,1,3,ELEC370,Electronic Circuits ,3,LECTURE
-3,28,1,1,3,ELEC375,Electronic Circuits Lab ,1,LAB
-3,29,1,1,3,CENG328,Introduction to Embedded Systems ,3,LECTURE
-3,30,1,1,3,CENG329,Introduction to Embedded Systems Lab ,1,LAB
-3,31,1,1,3,STAT210,Probability and Statistics ,3,LECTURE
-3,32,1,1,3,ITBP301,Security Principles & Practice ,3,LECTURE
-3,33,1,1,3,CENG530,Computer Network Protocols ,3,LECTURE
-3,34,1,2,3,CENG320,Signals and Systems I ,3,LECTURE
-3,35,1,2,3,CENG324,Digital System Design ,3,LECTURE
-3,36,1,2,3,CENG325,Digital Design lab ,1,LAB
-3,37,1,2,3,CSBP315,Operating Systems Fundamentals ,3,LECTURE
-3,38,1,2,3,CENG529,Networking Lab ,1,LAB
-3,39,1,2,3,ELECTIVE,Student choice ,3,LECTURE
-3,40,1,2,3,ELECTIVE,Student choice ,3,LECTURE
-4,41,1,1,4,SWEB300,Software Engineering Fundamentals ,3,LECTURE
-4,42,1,1,4,ITBP418,Entrepreneurship in Information Technology ,3,LECTURE
-4,43,1,1,4,ITBP480,Senior Graduation Project I ,3,LECTURE
-4,44,1,1,4,ELECTIVE,Student choice ,3,LECTURE
-4,45,1,1,4,ELECTIVE,Student choice ,3,LECTURE
-4,46,1,2,4,ITBP481,Senior Graduation Project II ,3,LECTURE
-4,47,1,2,4,ITBP370,Professional Responsibility in Information Technology ,3,LECTURE
-4,48,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-4,49,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-4,50,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-5,51,1,1,5,ITBP495,Internship ,12,INTERN
-1,52,1,1,2,MATH140,Linear Algebra I ,3,LECTURE
-1,53,1,1,2,CENG201,Circuits Fundamentals ,3,LECTURE
-1,54,1,1,2,CENG231,Circuits Lab ,1,LAB
-1,55,1,1,2,PHYS110,General Physics II ,3,LECTURE
-1,56,1,1,2,PHYS140,General Physics Lab II ,1,LAB
-1,57,1,1,2,GESU121,Sustainability ,3,LECTURE
-1,58,1,1,2,CSBP319,Data Structures ,3,LECTURE
-1,59,1,2,2,MATH275,Ordinary Differential Equations ,3,LECTURE
-1,60,1,2,2,CENG221,Computer Architecture ,3,LECTURE
-1,61,1,2,2,PHYS231,Electronics Fundamentals ,3,LECTURE
-1,62,1,2,2,CENG210,Communication & Networks Fundamentals ,3,LECTURE
-1,63,1,2,2,BIOC100/CHEM111,Basic Biology I /General Chemistry I Choose ONE ,3,LECTURE
-1,64,1,2,2,ISLM100/ISLM101,"Islamic Culture/Biography of the Prophet ""Sira"" ",3,LECTURE
-2,65,1,1,3,CENG320,Signals and Systems I ,3,LECTURE
-2,66,1,1,3,CENG324,Digital System Design ,3,LECTURE
-2,67,1,1,3,CENG325,Digital Design lab ,1,LAB
-2,68,1,1,3,CSBP315,Operating Systems Fundamentals ,3,LECTURE
-2,69,1,1,3,CENG529,Networking Lab ,1,LAB
-2,70,1,1,3,CENG530,Computer Network Protocols ,3,LECTURE
-2,71,1,1,3,ELECTIVE,Student choice ,3,LECTURE
-2,72,1,2,3,ELEC370,Electronic Circuits ,3,LECTURE
-2,73,1,2,3,ELEC375,Electronic Circuits Lab ,1,LAB
-2,74,1,2,3,CENG328,Introduction to Embedded Systems ,3,LECTURE
-2,75,1,2,3,CENG329,Introduction to Embedded Systems Lab ,1,LAB
-2,76,1,2,3,STAT210,Probability and Statistics ,3,LECTURE
-2,77,1,2,3,ITBP301,Security Principles & Practice ,3,LECTURE
-2,78,1,2,3,Elective,Student choice ,3,LECTURE
-3,79,1,1,4,SWEB300,Software Engineering Fundamentals ,3,LECTURE
-3,80,1,1,4,ITBP418,Entrepreneurship in Information Technology ,3,LECTURE
-3,81,1,1,4,ITBP480,Senior Graduation Project I ,3,LECTURE
-3,82,1,1,4,ELECTIVE,Student choice ,3,LECTURE
-3,83,1,1,4,ELECTIVE,Student choice ,3,LECTURE
-3,84,1,2,4,ITBP481,Senior Graduation Project II ,3,LECTURE
-3,85,1,2,4,ITBP370,Professional Responsibility in Information Technology ,3,LECTURE
-3,86,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-3,87,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-3,88,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-4,89,1,1,5,ITBP495,Internship ,12,INTERN
-1,90,1,1,3,CENG340,Autonomous Systems: Fundamentals and Applications ,3,LECTURE
-1,91,1,1,3,CENG341,Autonomous Systems Lab ,3,LECTURE
-1,92,1,1,3,CENG328,Introduction to Embedded Systems ,3,LECTURE
-1,93,1,1,3,CENG329,Introduction to Embedded Systems Lab ,1,LAB
-1,94,1,1,3,STAT210,Probability and Statistics ,3,LECTURE
-1,95,1,1,3,ITBP301,Security Principles & Practice ,3,LECTURE
-1,96,1,1,3,CENG530,Computer Network Protocols ,3,LECTURE
-1,97,1,2,3,CENG320,Signals and Systems I ,3,LECTURE
-1,98,1,2,3,CENG324,Digital System Design ,3,LECTURE
-1,99,1,2,3,CENG325,Digital Design lab ,1,LAB
-1,100,1,2,3,CSBP315,Operating Systems Fundamentals ,3,LECTURE
-1,101,1,2,3,CENG529,Networking Lab ,1,LAB
-1,102,1,2,3,ELECTIVE,Student choice ,3,LECTURE
-1,103,1,2,3,ELECTIVE,Student choice ,3,LECTURE
-2,104,1,1,4,SWEB300,Software Engineering Fundamentals ,3,LECTURE
-2,105,1,1,4,ITBP418,Entrepreneurship in Information Technology ,3,LECTURE
-2,106,1,1,4,ITBP480,Senior Graduation Project I ,3,LECTURE
-2,107,1,1,4,ELECTIVE,Student choice ,3,LECTURE
-2,108,1,1,4,ELECTIVE,FALSE,3,LECTURE
-2,109,1,2,4,ITBP481,Senior Graduation Project II ,3,LECTURE
-2,110,1,2,4,ITBP370,Professional Responsibility in Information Technology ,3,LECTURE
-2,111,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-2,112,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-2,113,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-3,114,1,1,5,ITBP495,Internship ,12,INTERN
-1,115,1,1,4,SWEB300,Software Engineering Fundamentals ,3,LECTURE
-1,116,1,1,4,ITBP418,Entrepreneurship in Information Technology ,3,LECTURE
-1,117,1,1,4,ITBP480,Senior Graduation Project I ,3,LECTURE
-1,118,1,1,4,ELECTIVE,Student choice ,3,LECTURE
-1,119,1,1,4,ELECTIVE,Student choice ,3,LECTURE
-1,120,1,2,4,ITBP481,Senior Graduation Project II ,3,LECTURE
-1,121,1,2,4,ITBP370,Professional Responsibility in Information Technology ,3,LECTURE
-1,122,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-1,123,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-1,124,1,2,4,ELECTIVE,Student choice ,3,LECTURE
-2,125,1,1,5,ITBP495,Internship ,12,INTERN
+1,6,1,1,1,CSBP121,Programming Lab I,1,LAB
+1,7,1,1,1,PHYS135,General Physics Lab I,1,LAB
+1,8,1,2,1,CENG202,Discrete Mathematics,3,LECTURE
+1,9,1,2,1,MATH110,Calculus II,3,LECTURE
+1,10,1,2,1,CSBP219,Object Oriented Programming,3,LECTURE
+1,11,1,2,1,CENG205,Digital Design & Computer Organization,3,LECTURE
+1,12,1,2,1,CSBP221,Programming Lab II,1,LAB
+1,13,1,2,1,HSS105,Emirates Studies,3,LECTURE
+1,14,1,1,2,MATH140,Linear Algebra I,3,LECTURE
+1,15,1,1,2,CENG201,Circuits Fundamentals,3,LECTURE
+1,16,1,1,2,CENG231,Circuits Lab,1,LAB
+1,17,1,1,2,PHYS110,General Physics II,3,LECTURE
+1,18,1,1,2,PHYS140,General Physics Lab II,1,LAB
+1,19,1,1,2,GESU121,Sustainability,3,LECTURE
+1,20,1,1,2,CSBP319,Data Structures,3,LECTURE
+1,21,1,2,2,MATH275,Ordinary Differential Equations,3,LECTURE
+1,22,1,2,2,CENG221,Computer Architecture,3,LECTURE
+1,23,1,2,2,PHYS231,Electronics Fundamentals,3,LECTURE
+1,24,1,2,2,CENG210,Communication & Networks Fundamentals,3,LECTURE
+1,25,1,2,2,BIOC100/CHEM111,Basic Biology I /General Chemistry I Choose ONE,3,LECTURE
+1,26,1,2,2,ISLM100/ISLM101,"Islamic Culture/Biography of the Prophet ""Sira""",3,LECTURE
+1,27,1,1,3,CENG340,Autonomous Systems: Fundamentals and Applications,3,LECTURE
+1,28,1,1,3,CENG341,Autonomous Systems Lab,3,LECTURE
+1,29,1,1,3,CENG328,Introduction to Embedded Systems,3,LECTURE
+1,30,1,1,3,CENG329,Introduction to Embedded Systems Lab,1,LAB
+1,31,1,1,3,STAT210,Probability and Statistics,3,LECTURE
+1,32,1,1,3,ITBP301,Security Principles & Practice,3,LECTURE
+1,33,1,1,3,CENG530,Computer Network Protocols,3,LECTURE
+1,34,1,2,3,CENG320,Signals and Systems I,3,LECTURE
+1,35,1,2,3,CENG324,Digital System Design,3,LECTURE
+1,36,1,2,3,CENG325,Digital Design lab,1,LAB
+1,37,1,2,3,CSBP315,Operating Systems Fundamentals,3,LECTURE
+1,38,1,2,3,CENG529,Networking Lab,1,LAB
+1,39,1,2,3,ELECTIVE,Student choice,3,LECTURE
+1,40,1,2,3,ELECTIVE,Student choice,3,LECTURE
+1,41,1,1,4,SWEB300,Software Engineering Fundamentals,3,LECTURE
+1,42,1,1,4,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+1,43,1,1,4,ITBP480,Senior Graduation Project I,3,LECTURE
+1,44,1,1,4,ELECTIVE,Student choice,3,LECTURE
+1,45,1,1,4,ELECTIVE,Student choice,3,LECTURE
+1,46,1,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+1,47,1,2,4,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+1,48,1,2,4,ELECTIVE,Student choice,3,LECTURE
+1,49,1,2,4,ELECTIVE,Student choice,3,LECTURE
+1,50,1,2,4,ELECTIVE,Student choice,3,LECTURE
+2,51,1,1,1,ESPU1081,Introduction to Academic English for Information Technology I,3,LECTURE
+2,52,1,1,1,MATH105,Calculus I,3,LECTURE
+2,53,1,1,1,CSBP119,Algorithms and Problem Solving,3,LECTURE
+2,54,1,1,1,PHYS105,General Physics I,3,LECTURE
+2,55,1,1,1,GEIT112,Fourth Industrial Revolution,3,LECTURE
+2,56,1,1,1,CSBP121,Programming Lab I,1,LAB
+2,57,1,1,1,PHYS135,General Physics Lab I,1,LAB
+2,58,1,2,1,CENG202,Discrete Mathematics,3,LECTURE
+2,59,1,2,1,MATH110,Calculus II,3,LECTURE
+2,60,1,2,1,CSBP219,Object Oriented Programming,3,LECTURE
+2,61,1,2,1,CENG205,Digital Design & Computer Organization,3,LECTURE
+2,62,1,2,1,CSBP221,Programming Lab II,1,LAB
+2,63,1,2,1,HSS105,Emirates Studies,3,LECTURE
+2,64,1,1,2,MATH140,Linear Algebra I,3,LECTURE
+2,65,1,1,2,CENG201,Circuits Fundamentals,3,LECTURE
+2,66,1,1,2,CENG231,Circuits Lab,1,LAB
+2,67,1,1,2,PHYS110,General Physics II,3,LECTURE
+2,68,1,1,2,PHYS140,General Physics Lab II,1,LAB
+2,69,1,1,2,GESU121,Sustainability,3,LECTURE
+2,70,1,1,2,CSBP319,Data Structures,3,LECTURE
+2,71,1,2,2,MATH275,Ordinary Differential Equations,3,LECTURE
+2,72,1,2,2,CENG221,Computer Architecture,3,LECTURE
+2,73,1,2,2,PHYS231,Electronics Fundamentals,3,LECTURE
+2,74,1,2,2,CENG210,Communication & Networks Fundamentals,3,LECTURE
+2,75,1,2,2,BIOC100/CHEM111,Basic Biology I /General Chemistry I Choose ONE,3,LECTURE
+2,76,1,2,2,ISLM100/ISLM101,"Islamic Culture/Biography of the Prophet ""Sira""",3,LECTURE
+2,77,1,1,3,CENG340,Autonomous Systems: Fundamentals and Applications,3,LECTURE
+2,78,1,1,3,CENG341,Autonomous Systems Lab,3,LECTURE
+2,79,1,1,3,CENG328,Introduction to Embedded Systems,3,LECTURE
+2,80,1,1,3,CENG329,Introduction to Embedded Systems Lab,1,LAB
+2,81,1,1,3,STAT210,Probability and Statistics,3,LECTURE
+2,82,1,1,3,ITBP301,Security Principles & Practice,3,LECTURE
+2,83,1,1,3,CENG530,Computer Network Protocols,3,LECTURE
+2,84,1,2,3,CENG320,Signals and Systems I,3,LECTURE
+2,85,1,2,3,CENG324,Digital System Design,3,LECTURE
+2,86,1,2,3,CENG325,Digital Design lab,1,LAB
+2,87,1,2,3,CSBP315,Operating Systems Fundamentals,3,LECTURE
+2,88,1,2,3,CENG529,Networking Lab,1,LAB
+2,89,1,2,3,ELECTIVE,Student choice,3,LECTURE
+2,90,1,2,3,ELECTIVE,Student choice,3,LECTURE
+2,91,1,1,4,SWEB300,Software Engineering Fundamentals,3,LECTURE
+2,92,1,1,4,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+2,93,1,1,4,ITBP480,Senior Graduation Project I,3,LECTURE
+2,94,1,1,4,ELECTIVE,Student choice,3,LECTURE
+2,95,1,1,4,ELECTIVE,Student choice,3,LECTURE
+2,96,1,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+2,97,1,2,4,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+2,98,1,2,4,ELECTIVE,Student choice,3,LECTURE
+2,99,1,2,4,ELECTIVE,Student choice,3,LECTURE
+2,100,1,2,4,ELECTIVE,Student choice,3,LECTURE
+3,101,1,1,1,ESPU1081,Introduction to Academic English for Information Technology I,3,LECTURE
+3,102,1,1,1,MATH105,Calculus I,3,LECTURE
+3,103,1,1,1,CSBP119,Algorithms and Problem Solving,3,LECTURE
+3,104,1,1,1,PHYS105,General Physics I,3,LECTURE
+3,105,1,1,1,GEIT112,Fourth Industrial Revolution,3,LECTURE
+3,106,1,1,1,CSBP121,Programming Lab I,1,LAB
+3,107,1,1,1,PHYS135,General Physics Lab I,1,LAB
+3,108,1,2,1,CENG202,Discrete Mathematics,3,LECTURE
+3,109,1,2,1,MATH110,Calculus II,3,LECTURE
+3,110,1,2,1,CSBP219,Object Oriented Programming,3,LECTURE
+3,111,1,2,1,CENG205,Digital Design & Computer Organization,3,LECTURE
+3,112,1,2,1,CSBP221,Programming Lab II,1,LAB
+3,113,1,2,1,HSS105,Emirates Studies,3,LECTURE
+3,114,1,1,2,MATH140,Linear Algebra I,3,LECTURE
+3,115,1,1,2,CENG201,Circuits Fundamentals,3,LECTURE
+3,116,1,1,2,CENG231,Circuits Lab,1,LAB
+3,117,1,1,2,PHYS110,General Physics II,3,LECTURE
+3,118,1,1,2,PHYS140,General Physics Lab II,1,LAB
+3,119,1,1,2,GESU121,Sustainability,3,LECTURE
+3,120,1,1,2,CSBP319,Data Structures,3,LECTURE
+3,121,1,2,2,MATH275,Ordinary Differential Equations,3,LECTURE
+3,122,1,2,2,CENG221,Computer Architecture,3,LECTURE
+3,123,1,2,2,PHYS231,Electronics Fundamentals,3,LECTURE
+3,124,1,2,2,CENG210,Communication & Networks Fundamentals,3,LECTURE
+3,125,1,2,2,BIOC100/CHEM111,Basic Biology I /General Chemistry I Choose ONE,3,LECTURE
+3,126,1,2,2,ISLM100/ISLM101,"Islamic Culture/Biography of the Prophet ""Sira""",3,LECTURE
+3,127,1,1,3,CENG340,Autonomous Systems: Fundamentals and Applications,3,LECTURE
+3,128,1,1,3,CENG341,Autonomous Systems Lab,3,LECTURE
+3,129,1,1,3,CENG328,Introduction to Embedded Systems,3,LECTURE
+3,130,1,1,3,CENG329,Introduction to Embedded Systems Lab,1,LAB
+3,131,1,1,3,STAT210,Probability and Statistics,3,LECTURE
+3,132,1,1,3,ITBP301,Security Principles & Practice,3,LECTURE
+3,133,1,1,3,CENG530,Computer Network Protocols,3,LECTURE
+3,134,1,2,3,CENG320,Signals and Systems I,3,LECTURE
+3,135,1,2,3,CENG324,Digital System Design,3,LECTURE
+3,136,1,2,3,CENG325,Digital Design lab,1,LAB
+3,137,1,2,3,CSBP315,Operating Systems Fundamentals,3,LECTURE
+3,138,1,2,3,CENG529,Networking Lab,1,LAB
+3,139,1,2,3,ELECTIVE,Student choice,3,LECTURE
+3,140,1,2,3,ELECTIVE,Student choice,3,LECTURE
+3,141,1,1,4,SWEB300,Software Engineering Fundamentals,3,LECTURE
+3,142,1,1,4,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+3,143,1,1,4,ITBP480,Senior Graduation Project I,3,LECTURE
+3,144,1,1,4,ELECTIVE,Student choice,3,LECTURE
+3,145,1,1,4,ELECTIVE,Student choice,3,LECTURE
+3,146,1,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+3,147,1,2,4,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+3,148,1,2,4,ELECTIVE,Student choice,3,LECTURE
+3,149,1,2,4,ELECTIVE,Student choice,3,LECTURE
+3,150,1,2,4,ELECTIVE,Student choice,3,LECTURE
+4,151,1,1,1,ESPU1081,Introduction to Academic English for Information Technology I,3,LECTURE
+4,152,1,1,1,MATH105,Calculus I,3,LECTURE
+4,153,1,1,1,CSBP119,Algorithms and Problem Solving,3,LECTURE
+4,154,1,1,1,PHYS105,General Physics I,3,LECTURE
+4,155,1,1,1,GEIT112,Fourth Industrial Revolution,3,LECTURE
+4,156,1,1,1,CSBP121,Programming Lab I,1,LAB
+4,157,1,1,1,PHYS135,General Physics Lab I,1,LAB
+4,158,1,2,1,CENG202,Discrete Mathematics,3,LECTURE
+4,159,1,2,1,MATH110,Calculus II,3,LECTURE
+4,160,1,2,1,CSBP219,Object Oriented Programming,3,LECTURE
+4,161,1,2,1,CENG205,Digital Design & Computer Organization,3,LECTURE
+4,162,1,2,1,CSBP221,Programming Lab II,1,LAB
+4,163,1,2,1,HSS105,Emirates Studies,3,LECTURE
+4,164,1,1,2,MATH140,Linear Algebra I,3,LECTURE
+4,165,1,1,2,CENG201,Circuits Fundamentals,3,LECTURE
+4,166,1,1,2,CENG231,Circuits Lab,1,LAB
+4,167,1,1,2,PHYS110,General Physics II,3,LECTURE
+4,168,1,1,2,PHYS140,General Physics Lab II,1,LAB
+4,169,1,1,2,GESU121,Sustainability,3,LECTURE
+4,170,1,1,2,CSBP319,Data Structures,3,LECTURE
+4,171,1,2,2,MATH275,Ordinary Differential Equations,3,LECTURE
+4,172,1,2,2,CENG221,Computer Architecture,3,LECTURE
+4,173,1,2,2,PHYS231,Electronics Fundamentals,3,LECTURE
+4,174,1,2,2,CENG210,Communication & Networks Fundamentals,3,LECTURE
+4,175,1,2,2,BIOC100/CHEM111,Basic Biology I /General Chemistry I Choose ONE,3,LECTURE
+4,176,1,2,2,ISLM100/ISLM101,"Islamic Culture/Biography of the Prophet ""Sira""",3,LECTURE
+4,177,1,1,3,CENG340,Autonomous Systems: Fundamentals and Applications,3,LECTURE
+4,178,1,1,3,CENG341,Autonomous Systems Lab,3,LECTURE
+4,179,1,1,3,CENG328,Introduction to Embedded Systems,3,LECTURE
+4,180,1,1,3,CENG329,Introduction to Embedded Systems Lab,1,LAB
+4,181,1,1,3,STAT210,Probability and Statistics,3,LECTURE
+4,182,1,1,3,ITBP301,Security Principles & Practice,3,LECTURE
+4,183,1,1,3,CENG530,Computer Network Protocols,3,LECTURE
+4,184,1,2,3,CENG320,Signals and Systems I,3,LECTURE
+4,185,1,2,3,CENG324,Digital System Design,3,LECTURE
+4,186,1,2,3,CENG325,Digital Design lab,1,LAB
+4,187,1,2,3,CSBP315,Operating Systems Fundamentals,3,LECTURE
+4,188,1,2,3,CENG529,Networking Lab,1,LAB
+4,189,1,2,3,ELECTIVE,Student choice,3,LECTURE
+4,190,1,2,3,ELECTIVE,Student choice,3,LECTURE
+4,191,1,1,4,SWEB300,Software Engineering Fundamentals,3,LECTURE
+4,192,1,1,4,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+4,193,1,1,4,ITBP480,Senior Graduation Project I,3,LECTURE
+4,194,1,1,4,ELECTIVE,Student choice,3,LECTURE
+4,195,1,1,4,ELECTIVE,Student choice,3,LECTURE
+4,196,1,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+4,197,1,2,4,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+4,198,1,2,4,ELECTIVE,Student choice,3,LECTURE
+4,199,1,2,4,ELECTIVE,Student choice,3,LECTURE
+4,200,1,2,4,ELECTIVE,Student choice,3,LECTURE
+5,201,1,1,1,ESPU1081,Introduction to Academic English for Information Technology I,3,LECTURE
+5,202,1,1,1,MATH105,Calculus I,3,LECTURE
+5,203,1,1,1,CSBP119,Algorithms and Problem Solving,3,LECTURE
+5,204,1,1,1,PHYS105,General Physics I,3,LECTURE
+5,205,1,1,1,GEIT112,Fourth Industrial Revolution,3,LECTURE
+5,206,1,1,1,CSBP121,Programming Lab I,1,LAB
+5,207,1,1,1,PHYS135,General Physics Lab I,1,LAB
+5,208,1,2,1,CENG202,Discrete Mathematics,3,LECTURE
+5,209,1,2,1,MATH110,Calculus II,3,LECTURE
+5,210,1,2,1,CSBP219,Object Oriented Programming,3,LECTURE
+5,211,1,2,1,CENG205,Digital Design & Computer Organization,3,LECTURE
+5,212,1,2,1,CSBP221,Programming Lab II,1,LAB
+5,213,1,2,1,HSS105,Emirates Studies,3,LECTURE
+5,214,1,1,2,MATH140,Linear Algebra I,3,LECTURE
+5,215,1,1,2,CENG201,Circuits Fundamentals,3,LECTURE
+5,216,1,1,2,CENG231,Circuits Lab,1,LAB
+5,217,1,1,2,PHYS110,General Physics II,3,LECTURE
+5,218,1,1,2,PHYS140,General Physics Lab II,1,LAB
+5,219,1,1,2,GESU121,Sustainability,3,LECTURE
+5,220,1,1,2,CSBP319,Data Structures,3,LECTURE
+5,221,1,2,2,MATH275,Ordinary Differential Equations,3,LECTURE
+5,222,1,2,2,CENG221,Computer Architecture,3,LECTURE
+5,223,1,2,2,PHYS231,Electronics Fundamentals,3,LECTURE
+5,224,1,2,2,CENG210,Communication & Networks Fundamentals,3,LECTURE
+5,225,1,2,2,BIOC100/CHEM111,Basic Biology I /General Chemistry I Choose ONE,3,LECTURE
+5,226,1,2,2,ISLM100/ISLM101,"Islamic Culture/Biography of the Prophet ""Sira""",3,LECTURE
+5,227,1,1,3,CENG340,Autonomous Systems: Fundamentals and Applications,3,LECTURE
+5,228,1,1,3,CENG341,Autonomous Systems Lab,3,LECTURE
+5,229,1,1,3,CENG328,Introduction to Embedded Systems,3,LECTURE
+5,230,1,1,3,CENG329,Introduction to Embedded Systems Lab,1,LAB
+5,231,1,1,3,STAT210,Probability and Statistics,3,LECTURE
+5,232,1,1,3,ITBP301,Security Principles & Practice,3,LECTURE
+5,233,1,1,3,CENG530,Computer Network Protocols,3,LECTURE
+5,234,1,2,3,CENG320,Signals and Systems I,3,LECTURE
+5,235,1,2,3,CENG324,Digital System Design,3,LECTURE
+5,236,1,2,3,CENG325,Digital Design lab,1,LAB
+5,237,1,2,3,CSBP315,Operating Systems Fundamentals,3,LECTURE
+5,238,1,2,3,CENG529,Networking Lab,1,LAB
+5,239,1,2,3,ELECTIVE,Student choice,3,LECTURE
+5,240,1,2,3,ELECTIVE,Student choice,3,LECTURE
+5,241,1,1,4,SWEB300,Software Engineering Fundamentals,3,LECTURE
+5,242,1,1,4,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+5,243,1,1,4,ITBP480,Senior Graduation Project I,3,LECTURE
+5,244,1,1,4,ELECTIVE,Student choice,3,LECTURE
+5,245,1,1,4,ELECTIVE,Student choice,3,LECTURE
+5,246,1,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+5,247,1,2,4,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+5,248,1,2,4,ELECTIVE,Student choice,3,LECTURE
+5,249,1,2,4,ELECTIVE,Student choice,3,LECTURE
+5,250,1,2,4,ELECTIVE,Student choice,3,LECTURE
+1,251,2,1,1,MATH105,Calculus I ,3,LECTURE
+1,252,2,1,1,CHEM111,General Chemistry I ,3,LECTURE
+1,253,2,1,1,CSBP119,Algorithms and Problem Solving ,3,LECTURE
+1,254,2,1,1,CSBP121,Programming Lab I ,1,LAB
+1,255,2,1,1,ESPU1081,Introduction to Academic English for Information Technology,3,LECTURE
+1,256,2,1,1,GEIT112,Fourth Industrial Revolution ,3,LECTURE
+1,257,2,2,1,MATH110,Calculus II ,3,LECTURE
+1,258,2,2,1,CSBP219,Object Oriented Programming ,3,LECTURE
+1,259,2,2,1,CSBP221,Programming Lab II ,1,LAB
+1,260,2,2,1,CENG205,Digital Design & Computer Organization ,3,LECTURE
+1,261,2,2,1,CENG202,Discrete Mathematics ,3,LECTURE
+1,262,2,2,1,MATH140,Linear Algebra I ,3,LECTURE
+1,263,2,1,2,CSBP319,College Requirement ,3,LECTURE
+1,264,2,1,2,CENG210,Specialization ,3,LECTURE
+1,265,2,1,2,PHYS105,Gen Ed Course (Cluster 3: Area 1: Natural Sciences) ,3,LECTURE
+1,266,2,1,2,STAT210,College Requirement ,3,LECTURE
+1,267,2,1,2,CSBP315,College Requirement ,3,LECTURE
+1,268,2,1,2,PHYS135,Specialization ,1,LAB
+1,269,2,2,2,CSBP340,Database Systems,3,LECTURE
+1,270,2,2,2,ELECTIVE,Student choice,3,LECTURE
+1,271,2,2,2,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+1,272,2,2,2,SWEB300,Software Engineering Fundamentals,3,LECTURE
+1,273,2,2,2,ITBP301,Security Principles & Practice,3,LECTURE
+1,274,2,1,3,CSBP316,Human Computer Interaction,3,LECTURE
+1,275,2,1,3,CSBP400,Modeling & Simulation,3,LECTURE
+1,276,2,1,3,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+1,277,2,1,3,HSS105,Emirates Studies,3,LECTURE
+1,278,2,1,3,ELECTIVE,Student choice,3,LECTURE
+1,279,2,2,3,CSBP461,Internet Computing,3,LECTURE
+1,280,2,2,3,SWEB450,Analysis of Algorithms,3,LECTURE
+1,281,2,2,3,CSBP301,Artificial Intelligence,3,LECTURE
+1,282,2,2,3,ITBP321,Web Application Development Lab,1,LAB
+1,283,2,2,3,GESU121,Sustainability,3,LECTURE
+1,284,2,1,4,CSBP411,Machine Learning,3,LECTURE
+1,285,2,1,4,CSBP421,Smart Computer Graphics,3,LECTURE
+1,286,2,1,4,ITBP480,Senuor Graduation Project 1,3,LECTURE
+1,287,2,1,4,ISLM100,Islamic Culture,3,LECTURE
+1,288,2,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+1,289,2,2,4,ELECTIVE,Student choice,3,LECTURE
+1,290,2,2,4,ELECTIVE,Student choice,3,LECTURE
+1,291,2,2,4,ELECTIVE,Student choice,3,LECTURE
+2,292,2,1,1,MATH105,Calculus I ,3,LECTURE
+2,293,2,1,1,CHEM111,General Chemistry I ,3,LECTURE
+2,294,2,1,1,CSBP119,Algorithms and Problem Solving ,3,LECTURE
+2,295,2,1,1,CSBP121,Programming Lab I ,1,LAB
+2,296,2,1,1,ESPU1081,Introduction to Academic English for Information Technology,3,LECTURE
+2,297,2,1,1,GEIT112,Fourth Industrial Revolution ,3,LECTURE
+2,298,2,2,1,MATH110,Calculus II ,3,LECTURE
+2,299,2,2,1,CSBP219,Object Oriented Programming ,3,LECTURE
+2,300,2,2,1,CSBP221,Programming Lab II ,1,LAB
+2,301,2,2,1,CENG205,Digital Design & Computer Organization ,3,LECTURE
+2,302,2,2,1,CENG202,Discrete Mathematics ,3,LECTURE
+2,303,2,2,1,MATH140,Linear Algebra I ,3,LECTURE
+2,304,2,1,2,CSBP319,College Requirement ,3,LECTURE
+2,305,2,1,2,CENG210,Specialization ,3,LECTURE
+2,306,2,1,2,PHYS105,Gen Ed Course (Cluster 3: Area 1: Natural Sciences) ,3,LECTURE
+2,307,2,1,2,STAT210,College Requirement ,3,LECTURE
+2,308,2,1,2,CSBP315,College Requirement ,3,LECTURE
+2,309,2,1,2,PHYS135,Specialization ,1,LAB
+2,310,2,2,2,CSBP340,Database Systems,3,LECTURE
+2,311,2,2,2,ELECTIVE,Student choice,3,LECTURE
+2,312,2,2,2,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+2,313,2,2,2,SWEB300,Software Engineering Fundamentals,3,LECTURE
+2,314,2,2,2,ITBP301,Security Principles & Practice,3,LECTURE
+2,315,2,1,3,CSBP316,Human Computer Interaction,3,LECTURE
+2,316,2,1,3,CSBP400,Modeling & Simulation,3,LECTURE
+2,317,2,1,3,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+2,318,2,1,3,HSS105,Emirates Studies,3,LECTURE
+2,319,2,1,3,ELECTIVE,Student choice,3,LECTURE
+2,320,2,2,3,CSBP461,Internet Computing,3,LECTURE
+2,321,2,2,3,SWEB450,Analysis of Algorithms,3,LECTURE
+2,322,2,2,3,CSBP301,Artificial Intelligence,3,LECTURE
+2,323,2,2,3,ITBP321,Web Application Development Lab,1,LAB
+2,324,2,2,3,GESU121,Sustainability,3,LECTURE
+2,325,2,1,4,CSBP411,Machine Learning,3,LECTURE
+2,326,2,1,4,CSBP421,Smart Computer Graphics,3,LECTURE
+2,327,2,1,4,ITBP480,Senuor Graduation Project 1,3,LECTURE
+2,328,2,1,4,ISLM100,Islamic Culture,3,LECTURE
+2,329,2,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+2,330,2,2,4,ELECTIVE,Student choice,3,LECTURE
+2,331,2,2,4,ELECTIVE,Student choice,3,LECTURE
+2,332,2,2,4,ELECTIVE,Student choice,3,LECTURE
+3,333,2,1,1,MATH105,Calculus I ,3,LECTURE
+3,334,2,1,1,CHEM111,General Chemistry I ,3,LECTURE
+3,335,2,1,1,CSBP119,Algorithms and Problem Solving ,3,LECTURE
+3,336,2,1,1,CSBP121,Programming Lab I ,1,LAB
+3,337,2,1,1,ESPU1081,Introduction to Academic English for Information Technology,3,LECTURE
+3,338,2,1,1,GEIT112,Fourth Industrial Revolution ,3,LECTURE
+3,339,2,2,1,MATH110,Calculus II ,3,LECTURE
+3,340,2,2,1,CSBP219,Object Oriented Programming ,3,LECTURE
+3,341,2,2,1,CSBP221,Programming Lab II ,1,LAB
+3,342,2,2,1,CENG205,Digital Design & Computer Organization ,3,LECTURE
+3,343,2,2,1,CENG202,Discrete Mathematics ,3,LECTURE
+3,344,2,2,1,MATH140,Linear Algebra I ,3,LECTURE
+3,345,2,1,2,CSBP319,College Requirement ,3,LECTURE
+3,346,2,1,2,CENG210,Specialization ,3,LECTURE
+3,347,2,1,2,PHYS105,Gen Ed Course (Cluster 3: Area 1: Natural Sciences) ,3,LECTURE
+3,348,2,1,2,STAT210,College Requirement ,3,LECTURE
+3,349,2,1,2,CSBP315,College Requirement ,3,LECTURE
+3,350,2,1,2,PHYS135,Specialization ,1,LAB
+3,351,2,2,2,CSBP340,Database Systems,3,LECTURE
+3,352,2,2,2,ELECTIVE,Student choice,3,LECTURE
+3,353,2,2,2,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+3,354,2,2,2,SWEB300,Software Engineering Fundamentals,3,LECTURE
+3,355,2,2,2,ITBP301,Security Principles & Practice,3,LECTURE
+3,356,2,1,3,CSBP316,Human Computer Interaction,3,LECTURE
+3,357,2,1,3,CSBP400,Modeling & Simulation,3,LECTURE
+3,358,2,1,3,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+3,359,2,1,3,HSS105,Emirates Studies,3,LECTURE
+3,360,2,1,3,ELECTIVE,Student choice,3,LECTURE
+3,361,2,2,3,CSBP461,Internet Computing,3,LECTURE
+3,362,2,2,3,SWEB450,Analysis of Algorithms,3,LECTURE
+3,363,2,2,3,CSBP301,Artificial Intelligence,3,LECTURE
+3,364,2,2,3,ITBP321,Web Application Development Lab,1,LAB
+3,365,2,2,3,GESU121,Sustainability,3,LECTURE
+3,366,2,1,4,CSBP411,Machine Learning,3,LECTURE
+3,367,2,1,4,CSBP421,Smart Computer Graphics,3,LECTURE
+3,368,2,1,4,ITBP480,Senuor Graduation Project 1,3,LECTURE
+3,369,2,1,4,ISLM100,Islamic Culture,3,LECTURE
+3,370,2,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+3,371,2,2,4,ELECTIVE,Student choice,3,LECTURE
+3,372,2,2,4,ELECTIVE,Student choice,3,LECTURE
+3,373,2,2,4,ELECTIVE,Student choice,3,LECTURE
+4,374,2,1,1,MATH105,Calculus I ,3,LECTURE
+4,375,2,1,1,CHEM111,General Chemistry I ,3,LECTURE
+4,376,2,1,1,CSBP119,Algorithms and Problem Solving ,3,LECTURE
+4,377,2,1,1,CSBP121,Programming Lab I ,1,LAB
+4,378,2,1,1,ESPU1081,Introduction to Academic English for Information Technology,3,LECTURE
+4,379,2,1,1,GEIT112,Fourth Industrial Revolution ,3,LECTURE
+4,380,2,2,1,MATH110,Calculus II ,3,LECTURE
+4,381,2,2,1,CSBP219,Object Oriented Programming ,3,LECTURE
+4,382,2,2,1,CSBP221,Programming Lab II ,1,LAB
+4,383,2,2,1,CENG205,Digital Design & Computer Organization ,3,LECTURE
+4,384,2,2,1,CENG202,Discrete Mathematics ,3,LECTURE
+4,385,2,2,1,MATH140,Linear Algebra I ,3,LECTURE
+4,386,2,1,2,CSBP319,College Requirement ,3,LECTURE
+4,387,2,1,2,CENG210,Specialization ,3,LECTURE
+4,388,2,1,2,PHYS105,Gen Ed Course (Cluster 3: Area 1: Natural Sciences) ,3,LECTURE
+4,389,2,1,2,STAT210,College Requirement ,3,LECTURE
+4,390,2,1,2,CSBP315,College Requirement ,3,LECTURE
+4,391,2,1,2,PHYS135,Specialization ,1,LAB
+4,392,2,2,2,CSBP340,Database Systems,3,LECTURE
+4,393,2,2,2,ELECTIVE,Student choice,3,LECTURE
+4,394,2,2,2,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+4,395,2,2,2,SWEB300,Software Engineering Fundamentals,3,LECTURE
+4,396,2,2,2,ITBP301,Security Principles & Practice,3,LECTURE
+4,397,2,1,3,CSBP316,Human Computer Interaction,3,LECTURE
+4,398,2,1,3,CSBP400,Modeling & Simulation,3,LECTURE
+4,399,2,1,3,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+4,400,2,1,3,HSS105,Emirates Studies,3,LECTURE
+4,401,2,1,3,ELECTIVE,Student choice,3,LECTURE
+4,402,2,2,3,CSBP461,Internet Computing,3,LECTURE
+4,403,2,2,3,SWEB450,Analysis of Algorithms,3,LECTURE
+4,404,2,2,3,CSBP301,Artificial Intelligence,3,LECTURE
+4,405,2,2,3,ITBP321,Web Application Development Lab,1,LAB
+4,406,2,2,3,GESU121,Sustainability,3,LECTURE
+4,407,2,1,4,CSBP411,Machine Learning,3,LECTURE
+4,408,2,1,4,CSBP421,Smart Computer Graphics,3,LECTURE
+4,409,2,1,4,ITBP480,Senuor Graduation Project 1,3,LECTURE
+4,410,2,1,4,ISLM100,Islamic Culture,3,LECTURE
+4,411,2,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+4,412,2,2,4,ELECTIVE,Student choice,3,LECTURE
+4,413,2,2,4,ELECTIVE,Student choice,3,LECTURE
+4,414,2,2,4,ELECTIVE,Student choice,3,LECTURE
+5,415,2,1,1,MATH105,Calculus I ,3,LECTURE
+5,416,2,1,1,CHEM111,General Chemistry I ,3,LECTURE
+5,417,2,1,1,CSBP119,Algorithms and Problem Solving ,3,LECTURE
+5,418,2,1,1,CSBP121,Programming Lab I ,1,LAB
+5,419,2,1,1,ESPU1081,Introduction to Academic English for Information Technology,3,LECTURE
+5,420,2,1,1,GEIT112,Fourth Industrial Revolution ,3,LECTURE
+5,421,2,2,1,MATH110,Calculus II ,3,LECTURE
+5,422,2,2,1,CSBP219,Object Oriented Programming ,3,LECTURE
+5,423,2,2,1,CSBP221,Programming Lab II ,1,LAB
+5,424,2,2,1,CENG205,Digital Design & Computer Organization ,3,LECTURE
+5,425,2,2,1,CENG202,Discrete Mathematics ,3,LECTURE
+5,426,2,2,1,MATH140,Linear Algebra I ,3,LECTURE
+5,427,2,1,2,CSBP319,College Requirement ,3,LECTURE
+5,428,2,1,2,CENG210,Specialization ,3,LECTURE
+5,429,2,1,2,PHYS105,Gen Ed Course (Cluster 3: Area 1: Natural Sciences) ,3,LECTURE
+5,430,2,1,2,STAT210,College Requirement ,3,LECTURE
+5,431,2,1,2,CSBP315,College Requirement ,3,LECTURE
+5,432,2,1,2,PHYS135,Specialization ,1,LAB
+5,433,2,2,2,CSBP340,Database Systems,3,LECTURE
+5,434,2,2,2,ELECTIVE,Student choice,3,LECTURE
+5,435,2,2,2,ITBP370,Professional Responsibility in Information Technology,3,LECTURE
+5,436,2,2,2,SWEB300,Software Engineering Fundamentals,3,LECTURE
+5,437,2,2,2,ITBP301,Security Principles & Practice,3,LECTURE
+5,438,2,1,3,CSBP316,Human Computer Interaction,3,LECTURE
+5,439,2,1,3,CSBP400,Modeling & Simulation,3,LECTURE
+5,440,2,1,3,ITBP418,Entrepreneurship in Information Technology,3,LECTURE
+5,441,2,1,3,HSS105,Emirates Studies,3,LECTURE
+5,442,2,1,3,ELECTIVE,Student choice,3,LECTURE
+5,443,2,2,3,CSBP461,Internet Computing,3,LECTURE
+5,444,2,2,3,SWEB450,Analysis of Algorithms,3,LECTURE
+5,445,2,2,3,CSBP301,Artificial Intelligence,3,LECTURE
+5,446,2,2,3,ITBP321,Web Application Development Lab,1,LAB
+5,447,2,2,3,GESU121,Sustainability,3,LECTURE
+5,448,2,1,4,CSBP411,Machine Learning,3,LECTURE
+5,449,2,1,4,CSBP421,Smart Computer Graphics,3,LECTURE
+5,450,2,1,4,ITBP480,Senuor Graduation Project 1,3,LECTURE
+5,451,2,1,4,ISLM100,Islamic Culture,3,LECTURE
+5,452,2,2,4,ITBP481,Senior Graduation Project II,3,LECTURE
+5,453,2,2,4,ELECTIVE,Student choice,3,LECTURE
+5,454,2,2,4,ELECTIVE,Student choice,3,LECTURE
+5,455,2,2,4,ELECTIVE,Student choice,3,LECTURE
