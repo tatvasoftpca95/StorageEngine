@@ -26,7 +26,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "SEMESTER")
-@JsonIgnoreProperties({"yearType"})
+@JsonIgnoreProperties({"yearType","courses"})
 public class Semester {
 	//semester(fall, spring) - id, name
 	@Id

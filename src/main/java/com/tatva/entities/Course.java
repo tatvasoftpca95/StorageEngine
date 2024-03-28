@@ -6,15 +6,15 @@ import org.hibernate.annotations.GenericGenerator;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -23,7 +23,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Builder
+@Builder(toBuilder = true)
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "COURSE")
@@ -61,7 +61,14 @@ public class Course {
 	@JoinColumn(name="PROGRAM_ID")
 	private Program program;
 	
-	@OneToMany(mappedBy ="course", cascade = CascadeType.ALL)
+//	@OneToMany(mappedBy ="course", cascade = CascadeType.ALL)
+//	private List<Faculty> faculties;
+	
+	@ManyToMany
+	@JoinTable(
+			name = "COURSE_FACULTY",
+			joinColumns = @JoinColumn(name="COURSE_ID"),
+			inverseJoinColumns = @JoinColumn(name="FACULTY_ID"))
 	private List<Faculty> faculties;
 	
 	@Column(name = "CREDIT_HOURS")

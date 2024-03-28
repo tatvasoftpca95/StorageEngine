@@ -12,8 +12,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -27,7 +25,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "YEAR_TYPE")
-//@JsonIgnoreProperties({"courses","semesters","programs"})
+@JsonIgnoreProperties({"courses","semesters","programs"})
 public class YearType {
 	//year_type (1st, 2nd, 3rd, 4th, 5th) - id, yearNumber(String), ListofCourse(onetomany), 
 	//List ofsemester(onetomany), ListofPrograms(onetoMany) 

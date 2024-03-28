@@ -26,7 +26,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "PROGRAM")
-@JsonIgnoreProperties({"yearType"})
+@JsonIgnoreProperties({"yearType","courses"})
 public class Program {
 	//id, name(Btech in CS, BA), year_type_id(manytoone) 
 	@Id
