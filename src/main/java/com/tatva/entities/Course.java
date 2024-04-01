@@ -78,6 +78,10 @@ public class Course {
 	@Column(name = "TYPE")
 	private String type;
 	
+	@ManyToOne
+	@JoinColumn(name = "ROOM_ID")
+	private Room room;
+	
 	
 
 }
