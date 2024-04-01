@@ -5,6 +5,8 @@ import java.util.List;
 
 import org.hibernate.annotations.GenericGenerator;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -24,7 +26,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "ACADEMIC_DETAILS")
-//@JsonIgnoreProperties({"courses"})
+@JsonIgnoreProperties({"courses"})
 public class AcademicDetails {
 	//academic year - id, name, start date, duration in months, end date
 	//( will be calculated based on start date and duration)
